@@ -16,12 +16,17 @@ h1{
     font-size: 30px;
 }
 
-p{ 
+p, h2{ 
+    color: wheat;
+}
+
+li {
     color: wheat;
 }
 
 .container {
     width: 600px;
+    height: 600PX;
     max-width: 100%;
     min-height: 400px;
     margin: 0 auto;
