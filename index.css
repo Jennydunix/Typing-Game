@@ -38,6 +38,6 @@ p{
   }
   
   .error {
-    background-color: lightcoral;
+    background-color: rgb(247, 12, 12);
     border: red;
   }
