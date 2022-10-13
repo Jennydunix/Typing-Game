@@ -13,13 +13,13 @@ body {
 }
 
 h1{
-    color: rgb(230, 123, 84);
+    color: coral;
     font-size: 30px;
-    margin-top: 6rem;
+    margin-top: 30px;
 }
 
 p{ 
-    color: rgb(243, 237, 226);
+    color: wheat;
 }
 
 
@@ -29,7 +29,7 @@ p{
   min-height: 600px;
   margin: 0 auto;
   text-align: center;
-  background: black;
+  background: #0a0a0b;
   border-radius: 5px;
   top: 50%;
   left: 50%;
@@ -38,14 +38,12 @@ p{
 }
 
 ul {
-    display: inline-block; 
-    list-style: none;
+    display: flex; 
+    flex-direction: column;
     padding: 0;      
-    margin: 0;  
-}
-
-li{
-    color: rgb(226, 222, 213);
+    margin: 0 auto;     
+    width:  100%; 
+    color: azure;
 }
 
 
