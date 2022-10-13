@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Typing Game</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet“ href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity="sha384BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <h1>Typing game!</h1>
       <h2>The general flow of the game</h2>
-      <ul type="square">
-        <li>Player clicks on start button and is presented with a quote to type.</li>
-        <li>Player types the quote as quickly as they can in the textbox.</li>
-        <li>As each word is completed, the next one is highlighted.</li>
-        <li>If the player has a typo, the textbox is updated to red.</li>
-        <li>When the player completes the quote, a success message is displayed with the elapsed time.</li>
-      </ul>
-
+      <div>
+        <ul>
+            <li>Player clicks on start button and is presented with a quote to type.</li>
+            <li>Player types the quote as quickly as they can in the textbox.</li>
+            <li>As each word is completed, the next one is highlighted.</li>
+            <li>If the player has a typo, the textbox is updated to red.</li>
+            <li>When the player completes the quote, a success message is displayed with the elapsed time.</li>
+          </ul>
+      </div>
       <p>Now you know the flow, GAME START!</p>
 
 
@@ -32,7 +35,7 @@
         <button type="button" id="start">Start</button>
         <!-- To start the game -->
       </div>
-    </div>
+    </main>
 
     <script src="index.js" defer></script>
   </body>

@@ -9,34 +9,43 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 h1{
-    color: coral;
+    color: rgb(230, 123, 84);
     font-size: 30px;
+    margin-top: 6rem;
 }
 
-p, h2{ 
-    color: wheat;
+p{ 
+    color: rgb(243, 237, 226);
 }
 
-li {
-    color: wheat;
-}
 
 .container {
-    width: 600px;
-    height: 600PX;
-    max-width: 100%;
-    min-height: 400px;
-    margin: 0 auto;
-    text-align: center;
-    background: #0a0a0b;
-    border-radius: 5px;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%)
+  width: 900px;
+  max-width: 100%;
+  min-height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background: black;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%)
+}
+
+ul {
+    display: inline-block; 
+    list-style: none;
+    padding: 0;      
+    margin: 0;  
+}
+
+li{
+    color: rgb(226, 222, 213);
 }
 
 
