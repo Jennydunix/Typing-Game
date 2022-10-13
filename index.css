@@ -2,7 +2,6 @@
 
 * {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
 }
 
 body {
@@ -22,11 +21,15 @@ p{
     color: wheat;
 }
 
+input{
+    background-color: aliceblue;
+}
+
 
 .container {
   width: 900px;
   max-width: 100%;
-  min-height: 600px;
+  min-height: 400px;
   margin: 0 auto;
   text-align: center;
   background: #0a0a0b;
@@ -37,14 +40,6 @@ p{
   transform: translate(-50%, -50%)
 }
 
-ul {
-    display: flex; 
-    flex-direction: column;
-    padding: 0;      
-    margin: 0 auto;     
-    width:  100%; 
-    color: azure;
-}
 
 
 .highlight {
